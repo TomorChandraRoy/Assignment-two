@@ -257,7 +257,9 @@ body{
     justify-content: start;
     align-items: center;
     gap: 1rem;
+
 }
+
 .rectangle-section{
     margin-top: 70px;
 }
@@ -267,9 +269,8 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px; 
-    /* 25px; */
-
+    gap: 25px;
+  
 }
 /* 
 .rectangle-image img{
@@ -361,7 +362,4 @@ body{
    color: rgba(255, 255, 255, 0.60);
    font-size: 16px;
    font-weight: 500;
-}
-.hide{
-    display: none;
 }

@@ -45,10 +45,21 @@
 .instalis-content{
     margin: 20px;
 }
+
 .rectangle-title{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
+.rectangle-section img{
+    width: 38%;
+}
+.rectangle-image:hover {
+    padding: 10px 27px;
+    border-radius: 30px;
+
+}
+
 .footer-section{
     flex-direction: column;
 }
