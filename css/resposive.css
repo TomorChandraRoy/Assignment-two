@@ -27,8 +27,23 @@
     gap: 100px;
    
 }
+
 .instalis-section{
     flex-direction: column-reverse;
+    margin-top: 118px;
+
+
+}
+
+.instalis-images img{
+    width: 100%;
+}
+.instalis-images .image-small{
+    width: 70%;
+} 
+
+.instalis-content{
+    margin: 20px;
 }
 .rectangle-title{
     display: grid;

@@ -267,15 +267,16 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 25px; 
+    /* 25px; */
 
 }
-
+/* 
 .rectangle-image img{
     width: 79px;
     height: 77px;
 
-}
+} */
 .rectangle-image:hover {
     border: 1px solid #FF42A5;
     padding: 5px;
