@@ -14,9 +14,15 @@ body{
     padding: 16px;
 }
 
+.nav-item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 .logo-container{
     display: flex;
-    /* justify-content: center; */
+    gap: 15px;
     align-items: center;
 }
 
@@ -57,18 +63,18 @@ body{
     padding: 10px 24px;
     border-style: none;
 }
+
 .btn .fa-brands{
-    padding: 12px;
-    color: red;
+    margin-left: 12px;
 }
-.btn .fa-tiktok{}
+
 
 /* goat-section  */
 
 .goat-section{
     background-image: url(/images/Group\ 14.png);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-repeat: no-repeat;
 
@@ -78,6 +84,12 @@ body{
     margin-top: 30px;
 }
 
+.gota-title{
+    width: 50%;
+}
+.image-section{
+    width: 50%;
+}
 .gota-title h3{
     color: #0B0223;
     font-size: 48px;
@@ -100,19 +112,24 @@ body{
 .image-section{
     margin-left: 175px;
 }
+.image-section img{
+    width: 400px;
+}
 
+.button-section{
+    margin-left: 4.5rem;
+}
 .button-one{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    display: inline-flex;
+    /* display: inline-flex; */
     padding: 21px 30px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
     border-style: none;
-    margin-left: 68px;
-    margin-right: 30px;
+    margin-right: 10px;
     cursor: pointer;
 }
 .button-two{
@@ -121,9 +138,9 @@ body{
     font-weight: 600;
     border-radius: 48px;
     background: #4EC5F7;
-    display: inline-flex;
+    /* display: inline-flex; */
     padding: 21px 40px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     border-style: none;
     cursor: pointer;
 }
@@ -201,6 +218,8 @@ body{
  
 
 }
+
+
 .instalis-content h2{
     font-size: 48px;
     font-weight: 700;
@@ -341,4 +360,7 @@ body{
    color: rgba(255, 255, 255, 0.60);
    font-size: 16px;
    font-weight: 500;
+}
+.hide{
+    display: none;
 }
