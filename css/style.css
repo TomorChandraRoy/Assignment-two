@@ -181,10 +181,36 @@ body{
     gap: 1rem;
 }
 
-.funny-box-hover img:hover{
-    border: 4px solid rgb(235, 8, 159);
-    border-radius: 8px;
+.funny-box-hover{
+    position: relative;
+    
 }
+.funny-box-hover:hover .contant-hover{
+    opacity: 1;
+    visibility: visible;
+
+}
+.contant-hover{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 175px;
+    left: 138px;
+    width: 100%;
+    height: 100%;
+}
+.contant-hover {
+ color:red;
+}
+
+.contant-hover .fa-solid{
+ color: white;
+}
+
+/* .watch-now{
+    position: relative;
+    width: 20px;
+} */
 
 .funny-image .funny-box{
     width: 342px;
