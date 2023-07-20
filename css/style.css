@@ -186,6 +186,7 @@ body{
 .funny-box{
     width: 300px;
     position: relative;
+    margin-bottom: 31px;
 }
 .contant-hover{
     width: 100%;
