@@ -71,7 +71,10 @@ body{
     margin-left: 12px;
 }
 .btn .fa-brands{
-    color: #08FFF9, #F00044, #000000;
+    color: #F00044;
+}
+.btn .fa-tiktok{
+    color: #000000;
 }
 
 
