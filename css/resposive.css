@@ -52,10 +52,11 @@
 
 }
 .rectangle-section img{
-    width: 38%;
+    width: 34%;
+    
 }
 .rectangle-image:hover {
-    padding: 10px 27px;
+    padding:10px 27px;
     border-radius: 30px;
 
 }
@@ -67,6 +68,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-
+.foother-policy{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 }
