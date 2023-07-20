@@ -58,11 +58,6 @@
     width: 34%;
     
 }
-.rectangle-image:hover {
-    padding:10px 27px;
-    border-radius: 30px;
-
-}
 
 .footer-section{
     flex-direction: column;
