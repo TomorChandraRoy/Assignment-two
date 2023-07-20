@@ -379,3 +379,6 @@ color: white;
    font-size: 16px;
    font-weight: 500;
 }
+.none{
+    display: none;
+}

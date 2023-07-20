@@ -32,7 +32,6 @@
     flex-direction: column-reverse;
     margin-top: 118px;
 
-
 }
 
 .instalis-images img{
@@ -76,31 +75,71 @@
 }
 
 /* teblet responsive */
-/* @media screen  and (min-width:426px)  and (max-width:768px) {
+@media screen  and (min-width:426px)  and (max-width:768px) {
     .header-container{
         flex-direction: column;
-        margin-left: 120px;
+        margin-left: -41px;
     }
-    .nav-item-container a{
-     font-size: 30px;
-     margin-right: 10px;
+    .nav-item-container{
+        flex-direction: column;
     }
+    .nav-item-container .btn{
+        padding: 12px;
+    }
+
     .goat-section{
-        display: grid;
-        grid-template-columns: 1fr;
-        background-size: 100%;
-        background-position-x: 30px;
+        flex-direction: column-reverse;
     }
-    .gota-title{
-        margin-left: 20px;
+    .image-section {
+        width: 77%;
     }
-    .gota-title .ton{
-        padding: 32px;
+    .gota-title {
+        margin-left: -76px;
+        width: 57%;
+        margin-top: 343px;
     }
+
     .image-section{
-      margin-top: 273px;
+        margin-left: 0px;
+        display: block;
+        text-align: center;
     }
 
 
+    .funny-image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 75px;
+        width: 82%;
+       
+    }
 
-} */
+    .instalis-section{
+        margin-left: 67px;
+        flex-direction: column;
+        margin-top: 118px;}
+    
+    .instalis-content{
+        margin-top: -67px;
+        margin-right: 45px;
+    }
+    .instalis-images{
+        margin-top: -233px;
+    }
+    .rectangle-title{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+    }
+    .footer-section{
+        flex-direction: column;
+    }
+    .footer-text{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .foother-policy{
+        flex-direction: column;
+    }
+}
+   
