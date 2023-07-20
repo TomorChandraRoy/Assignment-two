@@ -180,44 +180,35 @@ body{
     align-items: center;
     gap: 1rem;
 }
-
-.funny-box-hover{
+/* funny-box-hover */
+.image-card{
+    width: 321px;
     position: relative;
-    
-}
-.funny-box-hover:hover .contant-hover{
-    opacity: 1;
-    visibility: visible;
-
 }
 .contant-hover{
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
-    top: 175px;
-    left: 138px;
     width: 100%;
     height: 100%;
+    top: 0;
+    left: 0;
+    position:absolute;
+    background:rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
 }
+.contant-hover:hover{
+    opacity: 1;
+}
+
 .contant-hover .watch-btn{
  color:red;
 }
 
 .contant-hover .fa-solid{
- color: white;
- margin-left: 45px;
-}
-
-/* .watch-now{
-    position: relative;
-    width: 20px;
-} */
-
-.funny-image .funny-box{
-    width: 342px;
-    height: 400px;
-
-
+color: white;
 }
 
 .funny-image p{
@@ -299,12 +290,7 @@ body{
     gap: 25px;
   
 }
-/* 
-.rectangle-image img{
-    width: 79px;
-    height: 77px;
 
-} */
 .rectangle-image:hover {
     border: 1px solid #FF42A5;
     padding: 5px;
