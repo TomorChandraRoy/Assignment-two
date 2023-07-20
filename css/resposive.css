@@ -1,3 +1,6 @@
+
+/* mobile responsive  */
+
 @media screen and (max-width:425px) {
 .header-container{
     flex-direction: column;
@@ -74,7 +77,8 @@
 
 }
 
-/* teblet responsive */
+/* tablet responsive */
+
 @media screen  and (min-width:426px)  and (max-width:768px) {
     .header-container{
         flex-direction: column;
